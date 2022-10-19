@@ -1,0 +1,90 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+width: 90%;
+display: flex;
+flex-direction: row;
+margin-left: 70px;
+margin-top: 40px;
+}
+.box{
+  width: 60%;
+  /* margin-left: 80px; */
+  margin-top: 30px;
+  position: relative;
+  height: 600px;
+
+}
+.innerbox-1{
+ display: flex;
+ flex-direction: column;
+  position: absolute;
+  margin-top: 20px;
+  /* margin-left: 20px; */
+  height: 240px;
+  width: 100%;
+  border: 1px solid rgb(53, 174, 8);
+  border-top-right-radius: 300px;
+  border-bottom-right-radius: 15px;
+  z-index: 2;
+  
+}
+.desc{
+    margin-top: 17px;
+    margin-left: 25px;
+}
+.line{
+    margin-top: 20px;
+    height: 300px;
+    width: 3px;
+    background-color: black;
+}
+.innerbox-2{
+    position: absolute;
+    background-color: rgb(205, 168, 206);
+    left: 280px;
+    height: 150px;
+    width: 550px;
+   margin-left: 200px;
+   z-index: 1;
+   margin-top: 90px;
+   border-top-left-radius: 300px;
+   border-bottom-left-radius: 15px;
+}
+.innerboxDesc{
+    margin: 30px 50px;
+    display: flex;
+    flex-direction: column;
+}
+.automate{
+    font-size: 30px;
+    font-weight: 400;
+ }
+ .ecommerce{
+    font-size: 30px;
+    color: #555387;
+    font-weight: bold;
+}
+.button{
+    margin-top: 20px;
+}
+.freebutton{
+    background-color: #2DD35C;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 15px;
+    font-weight: 600;
+    color: white;
+    height: 36px;
+}
+.demobutton{
+    border-radius: 20px;
+    border: 1px solid #555387;
+    padding: 10px 15px;
+    color: #555387;
+    background-color: white;
+    font-weight: 600;
+    height: 36px;
+}
